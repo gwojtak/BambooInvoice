@@ -1,0 +1,312 @@
+ERROR - 2017-07-02 18:45:44 --> Severity: Notice --> Undefined property: Install::$dbforge /var/www/html/bambooinvoice/application/controllers/Install.php 286
+ERROR - 2017-07-02 18:53:12 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 18:55:59 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 18:56:02 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 18:56:56 --> Severity: Notice --> Undefined property: Invoices::$obj /var/www/html/bambooinvoice/system/core/Model.php 77
+ERROR - 2017-07-02 18:56:56 --> Severity: Notice --> Indirect modification of overloaded property invoices_model::$obj has no effect /var/www/html/bambooinvoice/application/models/Invoices_model.php 7
+ERROR - 2017-07-02 19:03:21 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 19:03:33 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:06:15 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:06:15 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 8
+ERROR - 2017-07-02 20:06:15 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 8
+ERROR - 2017-07-02 20:06:15 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 13
+ERROR - 2017-07-02 20:06:15 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 13
+ERROR - 2017-07-02 20:06:15 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 24
+ERROR - 2017-07-02 20:06:15 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 24
+ERROR - 2017-07-02 20:06:15 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 29
+ERROR - 2017-07-02 20:06:15 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 29
+ERROR - 2017-07-02 20:06:15 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 40
+ERROR - 2017-07-02 20:06:15 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 40
+ERROR - 2017-07-02 20:06:15 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 45
+ERROR - 2017-07-02 20:06:15 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 45
+ERROR - 2017-07-02 20:06:15 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 56
+ERROR - 2017-07-02 20:06:15 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 56
+ERROR - 2017-07-02 20:06:15 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 61
+ERROR - 2017-07-02 20:06:15 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 61
+ERROR - 2017-07-02 20:06:18 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:06:21 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:06:23 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:06:27 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:06:29 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:06:30 --> Could not find the language line "utilities_new_version_check"
+ERROR - 2017-07-02 20:06:31 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:06:33 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:06:35 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:06:38 --> Severity: Runtime Notice --> Only variables should be assigned by reference /var/www/html/bambooinvoice/application/controllers/Utilities.php 71
+ERROR - 2017-07-02 20:06:46 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:06:47 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:06:49 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:06:49 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 8
+ERROR - 2017-07-02 20:06:49 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 8
+ERROR - 2017-07-02 20:06:49 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 13
+ERROR - 2017-07-02 20:06:49 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 13
+ERROR - 2017-07-02 20:06:49 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 24
+ERROR - 2017-07-02 20:06:49 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 24
+ERROR - 2017-07-02 20:06:49 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 29
+ERROR - 2017-07-02 20:06:49 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 29
+ERROR - 2017-07-02 20:06:49 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 40
+ERROR - 2017-07-02 20:06:49 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 40
+ERROR - 2017-07-02 20:06:49 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 45
+ERROR - 2017-07-02 20:06:49 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 45
+ERROR - 2017-07-02 20:06:49 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 56
+ERROR - 2017-07-02 20:06:49 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 56
+ERROR - 2017-07-02 20:06:49 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 61
+ERROR - 2017-07-02 20:06:49 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 61
+ERROR - 2017-07-02 20:06:50 --> Could not find the language line "clients_cityt"
+ERROR - 2017-07-02 20:17:19 --> Could not find the language line "clients_cityt"
+ERROR - 2017-07-02 20:17:24 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 17
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 17
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 17
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 17
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 21
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 21
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 21
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 21
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 24
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 24
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 24
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 24
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 25
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 25
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 25
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 25
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 26
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 26
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 26
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 26
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 27
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 27
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 27
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 27
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 28
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 28
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 28
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 28
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 29
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 29
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 29
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 29
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 32
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 32
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 32
+ERROR - 2017-07-02 20:17:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 32
+ERROR - 2017-07-02 20:21:06 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 17
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 17
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 17
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 17
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 21
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 21
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 21
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 21
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 24
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 24
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 24
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 24
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 25
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 25
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 25
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 25
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 26
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 26
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 26
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 26
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 27
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 27
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 27
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 27
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 28
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 28
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 28
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 28
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 29
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 29
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 29
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 29
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 32
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 32
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 32
+ERROR - 2017-07-02 20:21:06 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 32
+ERROR - 2017-07-02 20:21:12 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:21:48 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:21:52 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 21
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 21
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 21
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 21
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 24
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 24
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 24
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 24
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 25
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 25
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 25
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 25
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 26
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 26
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 26
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 26
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 27
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 27
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 27
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 27
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 28
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 28
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 28
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 28
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 29
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 29
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 29
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 29
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 32
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 32
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/newclient.php 32
+ERROR - 2017-07-02 20:21:52 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/newclient.php 32
+ERROR - 2017-07-02 20:28:48 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:29:29 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:29:29 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 8
+ERROR - 2017-07-02 20:29:29 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 8
+ERROR - 2017-07-02 20:29:29 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 13
+ERROR - 2017-07-02 20:29:29 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 13
+ERROR - 2017-07-02 20:29:29 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 24
+ERROR - 2017-07-02 20:29:29 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 24
+ERROR - 2017-07-02 20:29:29 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 29
+ERROR - 2017-07-02 20:29:29 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 29
+ERROR - 2017-07-02 20:29:29 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 40
+ERROR - 2017-07-02 20:29:29 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 40
+ERROR - 2017-07-02 20:29:29 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 45
+ERROR - 2017-07-02 20:29:29 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 45
+ERROR - 2017-07-02 20:29:29 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 56
+ERROR - 2017-07-02 20:29:29 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 56
+ERROR - 2017-07-02 20:29:29 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 61
+ERROR - 2017-07-02 20:29:29 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 61
+ERROR - 2017-07-02 20:30:23 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:30:23 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 8
+ERROR - 2017-07-02 20:30:23 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 8
+ERROR - 2017-07-02 20:30:23 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 13
+ERROR - 2017-07-02 20:30:23 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 13
+ERROR - 2017-07-02 20:30:23 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 24
+ERROR - 2017-07-02 20:30:23 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 24
+ERROR - 2017-07-02 20:30:23 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 29
+ERROR - 2017-07-02 20:30:23 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 29
+ERROR - 2017-07-02 20:30:23 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 40
+ERROR - 2017-07-02 20:30:23 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 40
+ERROR - 2017-07-02 20:30:23 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 45
+ERROR - 2017-07-02 20:30:23 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 45
+ERROR - 2017-07-02 20:30:23 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 56
+ERROR - 2017-07-02 20:30:23 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 56
+ERROR - 2017-07-02 20:30:23 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 61
+ERROR - 2017-07-02 20:30:23 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 61
+ERROR - 2017-07-02 20:30:34 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:30:34 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 8
+ERROR - 2017-07-02 20:30:34 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 8
+ERROR - 2017-07-02 20:30:34 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 13
+ERROR - 2017-07-02 20:30:34 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 13
+ERROR - 2017-07-02 20:30:34 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 24
+ERROR - 2017-07-02 20:30:34 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 24
+ERROR - 2017-07-02 20:30:34 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 29
+ERROR - 2017-07-02 20:30:34 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 29
+ERROR - 2017-07-02 20:30:34 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 40
+ERROR - 2017-07-02 20:30:34 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 40
+ERROR - 2017-07-02 20:30:34 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 45
+ERROR - 2017-07-02 20:30:34 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 45
+ERROR - 2017-07-02 20:30:34 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 56
+ERROR - 2017-07-02 20:30:34 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 56
+ERROR - 2017-07-02 20:30:34 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 61
+ERROR - 2017-07-02 20:30:34 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/client_contact_add_form.php 61
+ERROR - 2017-07-02 20:33:28 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:42:08 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:43:54 --> Query error: Column 'title' cannot be null - Invalid query: INSERT INTO `clientcontacts` (`client_id`, `first_name`, `last_name`, `email`, `phone`, `title`, `access_level`) VALUES (1, 'Greg', 'Wojtak', 'greg.wojtak@gmail.com', '7347188472', NULL, 0)
+ERROR - 2017-07-02 20:43:56 --> Query error: Column 'title' cannot be null - Invalid query: INSERT INTO `clientcontacts` (`client_id`, `first_name`, `last_name`, `email`, `phone`, `title`, `access_level`) VALUES (1, 'Greg', 'Wojtak', 'greg.wojtak@gmail.com', '7347188472', NULL, 0)
+ERROR - 2017-07-02 20:43:58 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:44:06 --> Query error: Column 'title' cannot be null - Invalid query: INSERT INTO `clientcontacts` (`client_id`, `first_name`, `last_name`, `email`, `phone`, `title`, `access_level`) VALUES (1, 'Greg', 'Wojtak', 'greg.wojtak@gmail.com', '7347188472', NULL, 0)
+ERROR - 2017-07-02 20:47:10 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:47:12 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:47:14 --> Could not find the language line "utilities_new_version_check"
+ERROR - 2017-07-02 20:47:14 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:50:19 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:50:20 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:50:24 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/edit.php 8
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/edit.php 8
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/edit.php 8
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/edit.php 8
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/edit.php 9
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/edit.php 9
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/edit.php 9
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/edit.php 9
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/edit.php 11
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/edit.php 11
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/edit.php 11
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/edit.php 11
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/edit.php 12
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/edit.php 12
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/edit.php 12
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/edit.php 12
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/edit.php 13
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/edit.php 13
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/edit.php 13
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/edit.php 13
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/edit.php 14
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/edit.php 14
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/edit.php 14
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/edit.php 14
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/edit.php 15
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/edit.php 15
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/edit.php 15
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/edit.php 15
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/edit.php 16
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/edit.php 16
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/edit.php 16
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/edit.php 16
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/edit.php 19
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/edit.php 19
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clients/edit.php 19
+ERROR - 2017-07-02 20:50:24 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clients/edit.php 19
+ERROR - 2017-07-02 20:59:15 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:59:23 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:59:24 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 20:59:33 --> Query error: Column 'title' cannot be null - Invalid query: INSERT INTO `clientcontacts` (`client_id`, `first_name`, `last_name`, `email`, `phone`, `title`, `access_level`) VALUES (1, 'Greg', 'Wojtak', 'greg.wojtak@gmail.com', '7347188472', NULL, 0)
+ERROR - 2017-07-02 21:38:48 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:40:38 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:40:38 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/edit.php 9
+ERROR - 2017-07-02 21:40:38 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/edit.php 9
+ERROR - 2017-07-02 21:40:38 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/edit.php 11
+ERROR - 2017-07-02 21:40:38 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/edit.php 11
+ERROR - 2017-07-02 21:40:38 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/edit.php 11
+ERROR - 2017-07-02 21:40:38 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/edit.php 11
+ERROR - 2017-07-02 21:40:38 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/edit.php 12
+ERROR - 2017-07-02 21:40:38 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/edit.php 12
+ERROR - 2017-07-02 21:40:38 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/edit.php 12
+ERROR - 2017-07-02 21:40:38 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/edit.php 12
+ERROR - 2017-07-02 21:40:38 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/edit.php 13
+ERROR - 2017-07-02 21:40:38 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/edit.php 13
+ERROR - 2017-07-02 21:40:38 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/edit.php 13
+ERROR - 2017-07-02 21:40:38 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/edit.php 13
+ERROR - 2017-07-02 21:40:38 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/edit.php 14
+ERROR - 2017-07-02 21:40:38 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/edit.php 14
+ERROR - 2017-07-02 21:40:38 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/clientcontacts/edit.php 14
+ERROR - 2017-07-02 21:40:38 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/clientcontacts/edit.php 14
+ERROR - 2017-07-02 21:47:34 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:47:41 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:47:47 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:47:55 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:48:11 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:48:15 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:48:17 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:48:26 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:48:28 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:48:29 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:48:31 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:48:38 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:48:40 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:48:42 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:48:42 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:48:48 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:48:50 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:51:58 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:53:09 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 21:53:11 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 22:05:02 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 22:07:16 --> Severity: Warning --> require_once(/var/www/html/bambooinvoice/system/plugins/dompdf/dompdf_config.inc.php): failed to open stream: No such file or directory /var/www/html/bambooinvoice/application/helpers/to_pdf_helper.php 10

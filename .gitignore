@@ -1,0 +1,5 @@
+__MACOSX
+.DS_Store
+
+invoices_temp/bambooinvoice_*.zip
+invoices_temp/invoice*
