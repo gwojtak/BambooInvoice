@@ -102,13 +102,13 @@ class clients_model extends CI_Model {
 			$this->db->delete('invoice_payments');
 
 			$this->db->where('client_id', $client_id);
-			$this->db->delete('clientcontacts');
+			$this->db->delete('clientcontacts'); 
 
 			$this->db->where('id', $client_id);
 			$this->db->delete('clients');
 
 			$this->db->where('client_id', $client_id);
-			$this->db->delete('invoices');
+			$this->db->delete('invoices'); 
 
 			return TRUE;
 		}

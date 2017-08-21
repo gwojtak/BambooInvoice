@@ -26,7 +26,7 @@ class Front extends MY_Controller {
 			exit;
 		}
 
-		if ($this->site_sentry->is_logged_in())
+		if ($this->site_sentry->is_logged_in()) 
 		{
 			$data['page_title'] = $this->lang->line('menu_root_system');
 			$data['extraHeadContent'] = "<script type=\"text/javascript\" src=\"" . base_url()."js/newinvoice.js\"></script>\n";
@@ -54,7 +54,7 @@ class Front extends MY_Controller {
 		{
 			if ($this->settings_model->get_setting('demo_flag') == 'y')
 			{
-				// for the demo, load the page that describes BambooInvoice, but if
+				// for the demo, load the page that describes BambooInvoice, but if 
 				// this isn't the demo, then move the user to the login page
 				$data['page_title'] = $this->lang->line('menu_catchphrase_nobreak');
 				$this->load->view('index/index_logged_out', $data);

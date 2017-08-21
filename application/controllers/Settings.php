@@ -74,7 +74,7 @@ class Settings extends MY_Controller {
 			// Logo uploading
 			$config['upload_path'] 		= './img/logo/';
 			$config['allowed_types'] 	= 'gif|jpg';
-			$config['max_size'] 		= '500';
+			$config['max_size'] 		= '500'; 
 			$config['max_width'] 		= '900';
 			$config['max_height'] 		= '200'; // these are WAY more then someone should need for a logo
 
@@ -257,7 +257,7 @@ class Settings extends MY_Controller {
                 'rules' => "trim|alpha|max_length[1]"
             )
         );
-
+                
 		$this->form_validation->set_rules($rules);
 
 		$this->form_validation->set_error_delimiters('<span class="error">', '</span>');

@@ -13,11 +13,11 @@
 /**
  * Invoice view styles notes
  *
- * This file NEEDS a locally located stylesheet to generate the appropriate formatting for
+ * This file NEEDS a locally located stylesheet to generate the appropriate formatting for 
  * transformation into a PDF.  If you alter this file (and you are encouraged to do so) just
  * keep in mind that all of your formatting must be located here.  You might also find that
  * there is limited or no support for a specific CSS style you want (ie: floating) and you'll
- * need to work around with old-school tables.  Sorry for that... ;)
+ * need to work around with old-school tables.  Sorry for that... ;)  
  */
 
 body {
@@ -103,7 +103,7 @@ table.stripe td {
 
 				<h2>
 					<?php if (isset($company_logo)) {echo $company_logo.'<br />';}?>
-					<?php echo $companyInfo->company_name;?>
+					<?php echo $companyInfo->company_name;?> 
 					<span><?php echo $this->lang->line('invoice_invoice');?></span>
 				</h2>
 
@@ -112,7 +112,7 @@ table.stripe td {
 					<?php if ($companyInfo->address2 != '') {echo '<br />' . $companyInfo->address2;}?><br />
 					<?php echo $companyInfo->city;?>,
 					<?php echo $companyInfo->province;?><br />
-					<?php echo $companyInfo->country;?>
+					<?php echo $companyInfo->country;?> 
 					<?php echo $companyInfo->postal_code;?><br />
 					<?php echo auto_link(prep_url($companyInfo->website));?>
 				</p>
@@ -163,7 +163,7 @@ table.stripe td {
 	</p>
 
 	<p>
-		<strong><?php echo $this->lang->line('invoice_payment_term');?>: <?php echo $this->settings_model->get_setting('days_payment_due');?> <?php echo $this->lang->line('date_days');?></strong>
+		<strong><?php echo $this->lang->line('invoice_payment_term');?>: <?php echo $this->settings_model->get_setting('days_payment_due');?> <?php echo $this->lang->line('date_days');?></strong> 
 		(<?php echo $date_invoice_due;?>)
 	</p>
 
@@ -182,7 +182,7 @@ table.stripe td {
 	<div id="footer">
 		<?php if ($this->settings_model->get_setting('display_branding') == 'y'):?>
 			<p>
-				<?php echo $this->lang->line('invoice_generated_by');?>
+				<?php echo $this->lang->line('invoice_generated_by');?> 
 				<?php echo $this->lang->line('bambooinvoice_logo');?><br />
 				<a href="http://www.bambooinvoice.org/">http://www.bambooinvoice.org</a>
 			</p>

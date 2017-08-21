@@ -34,7 +34,7 @@ class Accounts extends MY_Controller {
 				'field'   => 'last_name',
 				'label'   => 'lang:clients_last_name',
 				'rules'   => 'trim|htmlspecialchars|required|max_length[25]'
-			),
+			), 
 			array(
 				'field'   => 'login_password',
 				'label'   => 'lang:login_password',
@@ -56,10 +56,10 @@ class Accounts extends MY_Controller {
 		else
 		{
 			$client_id = $this->clientcontacts_model->addClientContact(
-																		0,
-																		$this->input->post('first_name'),
-																		$this->input->post('last_name'),
-																		$this->input->post('username'),
+																		0, 
+																		$this->input->post('first_name'), 
+																		$this->input->post('last_name'), 
+																		$this->input->post('username'), 
 																		$this->input->post('phone'),
 																		$this->input->post('title'),
 																		1 // turn on login access

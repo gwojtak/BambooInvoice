@@ -5,6 +5,6 @@ $this->load->view('header');
 
 <p class="error"><?php echo $msg;?></p>
 
-<?php
+<?php 
 $this->load->view('footer');
 ?>

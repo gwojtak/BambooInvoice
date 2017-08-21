@@ -4,8 +4,8 @@ $this->load->view('header');
 
 <h2><?php echo $this->lang->line('invoice_new_invoice_to') . ' ' . $row->name;?></h2>
 
-<!-- This is here only so that we can clone it when trying to create a new itemized
-series. It is outside the form, and thus will not submit (as an empty item) with the
+<!-- This is here only so that we can clone it when trying to create a new itemized 
+series. It is outside the form, and thus will not submit (as an empty item) with the 
 rest of the itemized items. -->
 <div id="itemized_invoice_node" style="display: none;">
 <p><label><?php echo $this->lang->line('invoice_item');?> <input type="text" class="item" name="item" size="40" /></label> <label><?php echo $this->lang->line('invoice_quantity');?> <input type="text" class="quantity" name="quantity" size="5" value="1" onblur="recalculate_items();" /></label> <label><?php echo $this->lang->line('invoice_amount');?> <?php echo $this->settings_model->get_setting('currency_symbol');?><input type="text" class="amount" name="amount" size="5" value="0.00" onblur="recalculate_items();" /></label></p>
@@ -20,7 +20,7 @@ rest of the itemized items. -->
 	<input type="hidden" name="tax2_rate" value="<?php echo $tax2_rate;?>" />
 <?php endif;?>
 	<p>
-		<label><?php echo $this->lang->line('invoice_number');?> <input type="text" name="invoice_number" id="invoice_number" value="<?php echo (set_value('invoice_number')) ? (set_value('invoice_number')) : ($suggested_invoice_number);?>" /></label>
+		<label><?php echo $this->lang->line('invoice_number');?> <input type="text" name="invoice_number" id="invoice_number" value="<?php echo (set_value('invoice_number')) ? (set_value('invoice_number')) : ($suggested_invoice_number);?>" /></label> 
 		<em>(<?php echo $this->lang->line('invoice_last_used') . ' ' . $lastInvoiceNumber;?>)</em> <?php echo form_error('invoice_number'); ?>
 	</p>
 	<p id="dateIssuedContainer">
@@ -43,7 +43,7 @@ rest of the itemized items. -->
 		</thead>
 		<tbody id="item_area">
 		<tr class="item_row">
-			<td><p><label><span><?php echo $this->lang->line('invoice_quantity');?></span><input type="text" name="items[1][quantity]" size="3" value="1" onkeyup="recalculate_items();" /></label></p></td>
+			<td><p><label><span><?php echo $this->lang->line('invoice_quantity');?></span><input type="text" name="items[1][quantity]" size="3" value="1" onkeyup="recalculate_items();" /></label></p></td> 
 			<td>
 				<p>
 				<label><span><?php echo $this->lang->line('invoice_work_description');?></span>

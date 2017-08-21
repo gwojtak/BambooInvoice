@@ -32,22 +32,22 @@ class Install extends CI_Controller {
 
         $rules = array(
             array(
-                'field' => 'login_username',
+                'field' => 'login_username', 
                 'label' => $this->lang->line('login_username'),
                 'rules' => 'required|valid_email'
             ),
             array(
-                'field' => 'login_password',
+                'field' => 'login_password', 
                 'label' => $this->lang->line('login_password'),
                 'rules' => 'required|matches[login_password_confirm]'
             ),
             array(
-                'field' => 'login_password_confirm',
+                'field' => 'login_password_confirm', 
                 'label' => $this->lang->line('login_password_confirm'),
                 'rules' => 'required'
             ),
             array(
-                'field' => 'primary_contact',
+                'field' => 'primary_contact', 
                 'label' => $this->lang->line('settings_primary_contact'),
                 'rules' => 'required'
             ),
@@ -267,14 +267,14 @@ class Install extends CI_Controller {
 	function update_bamboo()
 	{
         $this->load->dbforge();
-
+        
 		$updates = '<h2>Updates</h2>';
 
 		$updates .= '<ul><li>Base '.$this->lang->line('bambooinvoice_logo').' installed... attempting to update to most recent version</li>';
 
 		$version = $this->db->get('settings')->row()->bambooinvoice_version;
 
-		if ($version == '0.8.0' OR $version == '0.8.1' OR $version == '0.8.2')
+		if ($version == '0.8.0' OR $version == '0.8.1' OR $version == '0.8.2') 
 		{
 			show_error('Updating beyond this point requires a newer version of BambooInvoice.  Please contact Derek Allard if you want some guidance migrating your data.');
 		}
@@ -331,7 +331,7 @@ class Install extends CI_Controller {
 		{
 			$field = array(
 							'new_version_autocheck' => array(
-																'type' => 'CHAR',
+																'type' => 'CHAR', 
 																'default' => 'n'
 															)
 						);
@@ -500,7 +500,7 @@ class Install extends CI_Controller {
 	/**
 	  * This function is here to help me clean up the demo from time to time.  I STRONGLY recommend you don't use
 	  * it, as it WILL wipe out all your data and recovery will not be possible.  Don't do it man... DON'T DO IT!
-	  */
+	  */ 
 /*
 	function baleeted()
 	{
@@ -513,7 +513,7 @@ class Install extends CI_Controller {
 			if (strpos($table, 'settings') === FALSE)
 			{
 				$table = str_replace($this->db->dbprefix, '', $table);
-				$this->db->truncate($table);
+				$this->db->truncate($table); 
 			}
 		}
 

@@ -53,7 +53,7 @@ class Invoices extends MY_Controller {
 		$data['total_rows'] = $data['query']->num_rows();
 		$config['base_url'] = site_url('invoices/overdue');
 		$config['total_rows'] = $this->invoices_model->getInvoices('overdue', $this->settings_model->get_setting('days_payment_due'), 0, 10000)->num_rows();
-		$this->pagination->initialize($config);
+		$this->pagination->initialize($config); 
 		$data['pagination'] = $this->pagination->create_links();
 
 		$data['status_menu'] = TRUE; // pass status_menu
@@ -75,7 +75,7 @@ class Invoices extends MY_Controller {
 
 		$config['base_url'] = site_url('invoices/open');
 		$config['total_rows'] = $this->invoices_model->getInvoices('open', $this->settings_model->get_setting('days_payment_due'), 0, 10000)->num_rows();
-		$this->pagination->initialize($config);
+		$this->pagination->initialize($config); 
 		$data['pagination'] = $this->pagination->create_links();
 
 		$data['status_menu'] = TRUE; // pass status_menu
@@ -97,7 +97,7 @@ class Invoices extends MY_Controller {
 
 		$config['base_url'] = site_url('invoices/closed');
 		$config['total_rows'] = $this->invoices_model->getInvoices('closed', $this->settings_model->get_setting('days_payment_due'), 0, 10000)->num_rows();
-		$this->pagination->initialize($config);
+		$this->pagination->initialize($config); 
 		$data['pagination'] = $this->pagination->create_links();
 
 		$data['status_menu'] = TRUE; // pass status_menu
@@ -118,7 +118,7 @@ class Invoices extends MY_Controller {
 
 		$config['total_rows'] = $this->invoices_model->getInvoices('all', $this->settings_model->get_setting('days_payment_due'), 0, 10000)->num_rows();
 		$config['base_url'] = site_url('invoices/all');
-		$this->pagination->initialize($config);
+		$this->pagination->initialize($config); 
 		$data['pagination'] = $this->pagination->create_links();
 
 		$data['status_menu'] = TRUE; // pass status_menu
@@ -173,9 +173,9 @@ class Invoices extends MY_Controller {
 		$data['row'] = $this->clients_model->get_client_info($id); // used to extract name, id and tax info
 
 		$data['tax1_desc'] = $this->settings_model->get_setting('tax1_desc');
-		$data['tax1_rate'] = $this->settings_model->get_setting('tax1_rate');
+		$data['tax1_rate'] = (int)$this->settings_model->get_setting('tax1_rate');
 		$data['tax2_desc'] = $this->settings_model->get_setting('tax2_desc');
-		$data['tax2_rate'] = $this->settings_model->get_setting('tax2_rate');
+		$data['tax2_rate'] = (int)$this->settings_model->get_setting('tax2_rate');
 		$data['invoice_note_default'] = $this->settings_model->get_setting('invoice_note_default');
 
 		$last_invoice_number = $this->invoices_model->lastInvoiceNumber($id);
@@ -297,7 +297,7 @@ class Invoices extends MY_Controller {
 		else
 		{
 			// owing more then 30 days
-			$due_date = $data['row']->dateIssued + ($this->settings_model->get_setting('days_payment_due') * 60*60*24);
+			$due_date = $data['row']->dateIssued + ($this->settings_model->get_setting('days_payment_due') * 60*60*24); 
 			$data['status'] = '<span class="error">'.timespan(mysql_to_unix($data['row']->dateIssued) + ($this->settings_model->get_setting('days_payment_due') * 60*60*24), now()). ' '.$this->lang->line('invoice_overdue').'</span>';
 		}
 
@@ -630,14 +630,14 @@ class Invoices extends MY_Controller {
 
 		if ($recipients == '') {show_error($this->lang->line('invoice_email_no_recipient'));} // a rather rude reminder to include a recipient in case js is disabled
 
-		$recipient_emails = '';
+		$recipient_emails = array();
 
 		foreach($recipients as $recipient)
-		{
+     	{
 			($recipient == 1) ? $recipient_emails[] .= $from_email : $recipient_emails[] .= $this->clientcontacts_model->getContactInfo($recipient)->email;
 		}
 
-		$recipient_names = '';
+		$recipient_names = array();
 
 		foreach($recipients as $recipient)
 		{
@@ -663,7 +663,7 @@ class Invoices extends MY_Controller {
 			$this->email->cc(array_slice($recipient_emails, 1));
 		}
 
-		// should we blind copy the primary contact?
+		// should we blind copy the primary contact? 
 		if ($this->input->post('primary_contact') == 'y')
 		{
 			$this->email->bcc($data['companyInfo']->primary_contact_email);
@@ -677,7 +677,7 @@ class Invoices extends MY_Controller {
 		$this->email->attach("./invoices_temp/".$invoice_localized."_"."$invoice_number.pdf");
 
 		// for the demo, I don't want actual emails sent out, so this provides an easy
-		// override.
+		// override. 
 		if ($this->settings_model->get_setting('demo_flag') == 'n')
 		{
 			$this->email->send();
@@ -898,7 +898,7 @@ class Invoices extends MY_Controller {
 				else
 				{
 					// owing more then the overdue days amount
-					$due_date = $invoice_date + ($this->settings_model->get_setting('days_payment_due') * 60*60*24);
+					$due_date = $invoice_date + ($this->settings_model->get_setting('days_payment_due') * 60*60*24); 
 					$invoiceResults .= timespan($due_date, now()). ' '.$this->lang->line('invoice_overdue');
 				}
 
@@ -1059,7 +1059,7 @@ class Invoices extends MY_Controller {
                 'field' => 'tax2_rate',
                 'label' => $this->lang->line('tax2_rate'),
                 'rules' => 'trim|htmlspecialchars'
-            )
+            )        
         );
 		$this->form_validation->set_rules($rules);
 
@@ -1072,5 +1072,5 @@ class Invoices extends MY_Controller {
 
 		return $this->invoices_model->uniqueInvoiceNumber($this->input->post('invoice_number'));
 	}
-}
+} 
 ?>

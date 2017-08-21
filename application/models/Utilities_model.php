@@ -13,8 +13,8 @@ class utilities_model extends CI_Model {
 
 		if (is_resource($fp))
 		{
-			fputs ($fp,"GET ".$page_url." HTTP/1.0\r\n" );
-			fputs ($fp,"Host: ".$target['host'] . "\r\n" );
+			fputs ($fp,"GET ".$page_url." HTTP/1.0\r\n" ); 
+			fputs ($fp,"Host: ".$target['host'] . "\r\n" ); 
 			fputs ($fp,"User-Agent: BambooInvoice/\r\n");
 			fputs ($fp,"If-Modified-Since: Fri, 01 Jan 2004 12:24:04\r\n\r\n");
 

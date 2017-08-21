@@ -12,7 +12,7 @@ $this->load->view('header');
  * This will be added into Bamboo in the next iteration,
  * I just simply didn't have time for it this time around.
  *
-
+ 
 <div><canvas id="pie1" height="400" width="400"></canvas></div>
 
 <script type="text/javascript">
@@ -38,8 +38,8 @@ $this->load->view('header');
 
 		// Set the labels.
 		xTicks: [
-			{v:0, label:'January'},
-			{v:1, label:'Februari'},
+			{v:0, label:'January'}, 
+			{v:1, label:'Februari'}, 
 			{v:2, label:'March'},
 			{v:3, label:'April'}
 		]

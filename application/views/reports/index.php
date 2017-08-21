@@ -9,7 +9,7 @@ $tax2 = 0;
 <p id="report_shortlinks"><?php echo anchor ("reports/dates/$current_year-01-01/$current_year-03-31/", $this->lang->line('reports_first_quarter'));?>, <?php echo anchor ("reports/dates/$current_year-04-01/$current_year-06-30/", $this->lang->line('reports_second_quarter'));?>, <?php echo anchor ("reports/dates/$current_year-07-01/$current_year-09-31/", $this->lang->line('reports_third_quarter'));?>, <?php echo anchor ("reports/dates/$current_year-10-01/$current_year-12-31/", $this->lang->line('reports_fourth_quarter'));?></p>
 
 <?php echo form_open('reports/dates');?>
-<p><label for="startDate"><?php echo $this->lang->line('reports_start_date');?> <input type="text" id="startDate" size="10" name="startDate" value="<?php echo date("Y-m-d");?>" /></label>
+<p><label for="startDate"><?php echo $this->lang->line('reports_start_date');?> <input type="text" id="startDate" size="10" name="startDate" value="<?php echo date("Y-m-d");?>" /></label> 
 <label for="endDate"><?php echo $this->lang->line('reports_end_date');?> <input type="text" id="endDate" size="10" name="endDate" value="<?php echo date("Y-m-d");?>" /></label> <input type="submit" value="<?php echo $this->lang->line('reports_generate_report');?>" /></p>
 </form>
 
@@ -75,17 +75,17 @@ if (max($month_tax2) != 0) {
 				backgroundColor: '#f2f2f2',
 				colorScheme: 'blue',
 			   	xTicks: [
-					{v:0, label:'<?php echo html_entity_decode($this->lang->line('cal_jan'));?>'},
-			      	{v:1, label:'<?php echo html_entity_decode($this->lang->line('cal_feb'));?>'},
+					{v:0, label:'<?php echo html_entity_decode($this->lang->line('cal_jan'));?>'}, 
+			      	{v:1, label:'<?php echo html_entity_decode($this->lang->line('cal_feb'));?>'}, 
 			      	{v:2, label:'<?php echo html_entity_decode($this->lang->line('cal_mar'));?>'},
 			      	{v:3, label:'<?php echo html_entity_decode($this->lang->line('cal_apr'));?>'},
-			      	{v:4, label:'<?php echo html_entity_decode($this->lang->line('cal_may'));?>'},
+			      	{v:4, label:'<?php echo html_entity_decode($this->lang->line('cal_may'));?>'}, 
 			      	{v:5, label:'<?php echo html_entity_decode($this->lang->line('cal_jun'));?>'},
 			      	{v:6, label:'<?php echo html_entity_decode($this->lang->line('cal_jul'));?>'},
-			      	{v:7, label:'<?php echo html_entity_decode($this->lang->line('cal_aug'));?>'},
+			      	{v:7, label:'<?php echo html_entity_decode($this->lang->line('cal_aug'));?>'}, 
 			      	{v:8, label:'<?php echo html_entity_decode($this->lang->line('cal_sep'));?>'},
 			      	{v:9, label:'<?php echo html_entity_decode($this->lang->line('cal_oct'));?>'},
-			      	{v:10, label:'<?php echo html_entity_decode($this->lang->line('cal_nov'));?>'},
+			      	{v:10, label:'<?php echo html_entity_decode($this->lang->line('cal_nov'));?>'}, 
 			      	{v:11, label:'<?php echo html_entity_decode($this->lang->line('cal_dec'));?>'}
 				]
 			};

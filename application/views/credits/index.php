@@ -17,7 +17,7 @@ $this->load->view('header');
 
 <h3><a id="credits"></a><?php echo $this->lang->line('menu_credits');?></h3>
 
-<p><?php echo $this->lang->line('bambooinvoice_logo');?>
+<p><?php echo $this->lang->line('bambooinvoice_logo');?> 
   was developed by <a href="http://www.derekallard.com/">Derek Allard</a>. It is built on top of the excellent <a href="http://www.codeigniter.com/">CodeIgniter</a> <acronym title="Hypertext Preprocessor">PHP</acronym> framework. I'd like to gratefully acknowledge <a href="http://www.cubist.ca/">Cliff Persaud</a> for his input and insight into the design the <?php echo $this->lang->line('bambooinvoice_logo');?> logo. </p>
 
 <p>To contact the author, write <span id="emailaddr">info [at] bambooinvoice [dot] org</span>, but if you are looking for technical assistance, please use the <a href="http://forums.bambooinvoice.org">Forums</a>.  Need help, want to chat?  Come visit us.</p>

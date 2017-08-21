@@ -142,8 +142,8 @@ class Utilities extends MY_Controller {
 			ob_end_clean();
 
 			// OK, the output from PHPinfo is ugly and messy, but I'm not going
-			// through it to clear everything out.  This is how ExpressionEngine
-			// cleans up PHPinfo, and I'm happy to blatently stea...
+			// through it to clear everything out.  This is how ExpressionEngine 
+			// cleans up PHPinfo, and I'm happy to blatently stea... 
 			// erm... "resuse" this function.
 
 			$output = (preg_match("/<body.*?".">(.*)<\/body>/is", $buffer, $match)) ? $match['1'] : $buffer;

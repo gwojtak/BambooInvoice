@@ -1,0 +1,62 @@
+ERROR - 2017-07-04 09:56:11 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 09:56:14 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 09:57:06 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 09:57:11 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 09:57:12 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 09:57:24 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:02:10 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:02:12 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:02:14 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:02:16 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:02:37 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:15:26 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:15:29 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:15:34 --> Could not find the language line "tax1_desc"
+ERROR - 2017-07-04 15:15:34 --> Could not find the language line "tax1_rate"
+ERROR - 2017-07-04 15:15:34 --> Could not find the language line "tax2_desc"
+ERROR - 2017-07-04 15:15:34 --> Could not find the language line "tax2_rate"
+ERROR - 2017-07-04 15:15:34 --> Severity: Notice --> Undefined property: CI_Form_validation::$dateIssued /var/www/html/bambooinvoice/application/controllers/Invoices.php 200
+ERROR - 2017-07-04 15:15:34 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:15:34 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/invoices/newinvoice.php 23
+ERROR - 2017-07-04 15:15:34 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/invoices/newinvoice.php 23
+ERROR - 2017-07-04 15:15:34 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/invoices/newinvoice.php 24
+ERROR - 2017-07-04 15:15:34 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/invoices/newinvoice.php 24
+ERROR - 2017-07-04 15:15:34 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/invoices/newinvoice.php 27
+ERROR - 2017-07-04 15:15:34 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/invoices/newinvoice.php 27
+ERROR - 2017-07-04 15:15:34 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/invoices/newinvoice.php 79
+ERROR - 2017-07-04 15:15:34 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/invoices/newinvoice.php 79
+ERROR - 2017-07-04 15:15:34 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/invoices/newinvoice.php 80
+ERROR - 2017-07-04 15:15:34 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/invoices/newinvoice.php 80
+ERROR - 2017-07-04 15:15:34 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/bambooinvoice/application/controllers/Invoices.php 142
+ERROR - 2017-07-04 15:20:24 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:20:32 --> Could not find the language line "tax1_desc"
+ERROR - 2017-07-04 15:20:32 --> Could not find the language line "tax1_rate"
+ERROR - 2017-07-04 15:20:32 --> Could not find the language line "tax2_desc"
+ERROR - 2017-07-04 15:20:32 --> Could not find the language line "tax2_rate"
+ERROR - 2017-07-04 15:21:02 --> Could not find the language line "tax1_desc"
+ERROR - 2017-07-04 15:21:02 --> Could not find the language line "tax1_rate"
+ERROR - 2017-07-04 15:21:02 --> Could not find the language line "tax2_desc"
+ERROR - 2017-07-04 15:21:02 --> Could not find the language line "tax2_rate"
+ERROR - 2017-07-04 15:21:02 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:22:26 --> Could not find the language line "tax1_desc"
+ERROR - 2017-07-04 15:22:26 --> Could not find the language line "tax1_rate"
+ERROR - 2017-07-04 15:22:26 --> Could not find the language line "tax2_desc"
+ERROR - 2017-07-04 15:22:26 --> Could not find the language line "tax2_rate"
+ERROR - 2017-07-04 15:22:26 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:23:02 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:23:05 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:23:31 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:23:37 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:29:25 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:29:27 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:30:49 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:35:50 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 15:36:10 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 16:42:42 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 16:42:45 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 16:42:53 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 16:42:55 --> Severity: Runtime Notice --> Only variables should be assigned by reference /var/www/html/bambooinvoice/application/controllers/Utilities.php 71
+ERROR - 2017-07-04 16:43:00 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 16:43:02 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 16:43:06 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-04 19:18:08 --> Could not find the language line "setting_short_language"

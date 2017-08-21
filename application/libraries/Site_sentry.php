@@ -4,13 +4,12 @@
 * Site Sentry security library for Code Igniter applications
 * Author: James Nicol, Glossopteris Web Designs & Development, www.glossopteris.com, April 2006
 *
-* Modified very heavily for BambooINVOICE
+* Modified very heavily for BambooINVOICE 
 */
 
-class Site_sentry
+class Site_sentry 
 {
-
-	function Site_sentry()
+	function __construct()
 	{
 		$this->obj =& get_instance();
 	}
@@ -33,7 +32,7 @@ class Site_sentry
 		{
 			return FALSE;
 		}
-	}
+	} 
 
 	function login_routine()
 	{

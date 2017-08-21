@@ -35,7 +35,7 @@ $lang['clients_delete_all_invoices'] = 'Kustuta firma ja k&otilde;ik sellega seo
 $lang['clients_delete_client'] = 'Kustuta Firma';
 $lang['clients_delete_contact'] = 'Kustuta Kontakt';
 $lang['clients_deleted'] = 'Firma edukalt kustutatud';
-$lang['clients_deleted_error'] = 'Firma andmeid ei saanud kustutada';
+$lang['clients_deleted_error'] = 'Firma andmeid ei saanud kustutada'; 
 
 $lang['clients_edit_client'] = 'Muuda Firma andmeid';
 $lang['clients_edit_contact'] = 'Muuda Kontakti';

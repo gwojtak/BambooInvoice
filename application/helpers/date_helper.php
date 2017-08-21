@@ -11,7 +11,7 @@
   * @param	string	The date to read (YYYY-MM-DD)
   * @param	int		The number of days in the future
   * @return	integer
-  */
+  */ 
 function formatted_invoice_date($date = '', $days_from_now = 0)
 {
 	if ($date == '')
@@ -87,7 +87,7 @@ function mysqldatetime_to_timestamp($datetime = "")
   *
   * @access	public
   * @return	integer
-  */
+  */ 
 function now()
 {
 	$CI =& get_instance();
@@ -121,7 +121,7 @@ function now()
   * @param	integer a number of seconds
   * @param	integer Unix timestamp
   * @return	integer
-  */
+  */ 
 function timespan($seconds = 1, $time = '')
 {
 	$CI =& get_instance();
@@ -216,12 +216,12 @@ function mysql_to_unix($time = '')
 
 	// YYYYMMDDHHMMSS
 	return	mktime(
-					substr($time, 8, 2),
-					substr($time, 10, 2),
-					substr($time, 12, 2),
-					substr($time, 4, 2),
-					substr($time, 6, 2),
-					substr($time, 0, 4)
+					(int)substr($time, 8, 2),
+					(int)substr($time, 10, 2),
+					(int)substr($time, 12, 2),
+					(int)substr($time, 4, 2),
+					(int)substr($time, 6, 2),
+					(int)substr($time, 0, 4)
 					);
 }
 

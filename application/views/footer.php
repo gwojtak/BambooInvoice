@@ -10,7 +10,7 @@
 <script type="text/javascript">
 _uacct = "UA-316888-7";
 urchinTracker();
-// the link is available by now,
+// the link is available by now, 
 if ($('bamboodownload')) {
 	$('bamboodownload').onclick = function() {
 		urchinTracker('bamboodownload');

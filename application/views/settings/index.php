@@ -250,7 +250,7 @@ $this->load->view('header');
 					</div>
 
 					<p>
-						<label for="userfile"><span><?php echo $this->lang->line('settings_logo');?> (jpg, gif)</span></label>
+						<label for="userfile"><span><?php echo $this->lang->line('settings_logo');?> (jpg, gif)</span></label> 
 						<input name="userfile" type="file" id="userfile" />
 						<?php echo form_error('logo'); ?>
 					</p>

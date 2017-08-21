@@ -28,7 +28,7 @@ $this->load->view('header');
     echo form_hidden("hosted_button_id", "ARL8ZMKZFM65J") . "\n";
     echo form_submit('submit', 'Donate to Greg Wojtak') ."\n";
     echo form_close();
-?>
+?>  
 </div>
 <?php
 $this->load->view('footer');

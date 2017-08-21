@@ -20,7 +20,8 @@ class reports_model extends CI_Model {
 
 	function getSummaryData($start_date, $end_date)
 	{
-		$this->db->select_sum('amount * quantity', 'amount');
+		//$this->db->select_sum('amount * quantity', 'amount');
+		$this->db->select('SUM(amount * quantity) as amount');
 		$this->db->select('SUM(('.$this->db->dbprefix('invoice_items').'.amount*'.$this->db->dbprefix('invoice_items').'.quantity)*'.$this->db->dbprefix('invoices').'.tax1_rate/100) AS tax1_collected', FALSE);
 		$this->db->select('SUM(('.$this->db->dbprefix('invoice_items').'.amount*'.$this->db->dbprefix('invoice_items').'.quantity)*'.$this->db->dbprefix('invoices').'.tax2_rate/100) AS tax2_collected', FALSE);
 		$this->db->join('invoices', 'invoices.client_id = clients.id');

@@ -43,7 +43,7 @@ $this->load->view('invoices/invoice_new');
 			<?php
 				// client contact information
 				$this->db->where('client_id', $client->id);
-				$this->db->order_by("last_name", "first_name");
+				$this->db->order_by("last_name", "first_name"); 
 				$clientContacts = $this->db->get('clientcontacts');
 				$clientContactCount = $clientContacts->num_rows();
 
@@ -82,13 +82,13 @@ $this->load->view('invoices/invoice_new');
 		</p>
 
 		<p>
-			<?php echo $this->lang->line('invoice_tax_status');?>:
+			<?php echo $this->lang->line('invoice_tax_status');?>: 
 			<?php echo ($client->tax_status) ? $this->lang->line('invoice_taxable') : $this->lang->line('invoice_not_taxable');?>
 		</p>
 
 		<p class="client_options">
-			<?php echo anchor('clients/notes/'.$client->id, $this->lang->line('clients_notes'), array('class' => 'client_notes'));?> |
-			<?php echo anchor('clients/edit/'.$client->id, $this->lang->line('clients_edit_client'), array('class' => 'client_edit'));?> |
+			<?php echo anchor('clients/notes/'.$client->id, $this->lang->line('clients_notes'), array('class' => 'client_notes'));?> | 
+			<?php echo anchor('clients/edit/'.$client->id, $this->lang->line('clients_edit_client'), array('class' => 'client_edit'));?> | 
 			<?php echo anchor('clients/delete/'.$client->id, $this->lang->line('clients_delete_client'), array('class'=>'lbOn deleteConfirm client_delete'));?>
 		</p>
 

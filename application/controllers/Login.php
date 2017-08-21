@@ -22,7 +22,7 @@ class Login extends MY_Controller {
 
 		$data['languages'] = array();
 		// <p><question_mark php echo form_dropdown('language', $languages, $this->config->item('language')) question_mark></p>
-
+		
 		foreach(directory_map(APPPATH.'language') as $key => $value)
 		{
 			$data['languages'][$key] = ucfirst($key);
@@ -155,11 +155,11 @@ class Login extends MY_Controller {
 	// --------------------------------------------------------------------
 
 	/**
-	  * This function is here for testing and support purposes.  It doesn't actually get
+	  * This function is here for testing and support purposes.  It doesn't actually get 
 	  * used in Bamboo. It just provides a convenient way of forcing the admin password.
 	  * If you do use it, don't forget to re-comment it out, as otherwise it represents
 	  * a MAJOR security breach.
-	  */
+	  */ 
 
 	/*
 	function force_demo_password()
@@ -172,5 +172,5 @@ class Login extends MY_Controller {
 	}
 	*/
 }
-
+ 
 ?>

@@ -8,7 +8,7 @@ $this->load->view('header');
 	<p><label><?php echo $this->lang->line('invoice_client');?> <select name="client_id">
 	<?php
 	foreach($clientListEdit->result() as $client)
-	{
+	{ 
 		if ($client->id == $row->client_id)
 		{
 			echo '<option value="'.$client->id.'" selected="selected">'.$client->name.'</option>';
@@ -21,8 +21,8 @@ $this->load->view('header');
 	?>
 		</select></label></p>
 		<p>
-			<label><?php echo $this->lang->line('invoice_number');?> <input type="text" name="invoice_number" id="invoice_number" value="<?php echo set_value('invoice_number') ? (set_value('invoice_number')) : ($invoice_number);?>" /></label> <?php echo form_error('invoice_number');?><?php echo (null !== form_error('invoice_number'))?'<span id="invoice_number_error" class="error">' . $this->lang->line('invoice_not_unique'). '</span>':'';?>
-			<?php echo form_error('invoice_number'); ?>
+			<label><?php echo $this->lang->line('invoice_number');?> <input type="text" name="invoice_number" id="invoice_number" value="<?php echo set_value('invoice_number') ? (set_value('invoice_number')) : ($invoice_number);?>" /></label> <?php echo form_error('invoice_number');?><?php echo (null !== form_error('invoice_number'))?'<span id="invoice_number_error" class="error">' . $this->lang->line('invoice_not_unique'). '</span>':'';?> 
+			<?php echo form_error('invoice_number'); ?> 
 			<em><?php echo $last_number_suggestion;?></em>
 		</p>
 		<p id="dateIssuedContainer">
@@ -47,13 +47,13 @@ $this->load->view('header');
 				</thead>
 				<tbody id="item_area">
 
-			<?php
+			<?php 
 				$item_count = 0; // logic in template... yuck. But a quick way to generate this.
 				foreach ($items->result() as $item):
 					$item_count++;
 			?>
 				<tr class="item_row" id="item<?php echo $item_count;?>">
-					<td><p><label><span><?php echo $this->lang->line('invoice_quantity');?></span><input type="text" name="items[<?php echo $item_count;?>][quantity]" size="3" value="<?php echo $item->quantity;?>" onkeyup="recalculate_items();" /></label></p></td>
+					<td><p><label><span><?php echo $this->lang->line('invoice_quantity');?></span><input type="text" name="items[<?php echo $item_count;?>][quantity]" size="3" value="<?php echo $item->quantity;?>" onkeyup="recalculate_items();" /></label></p></td> 
 					<td>
 						<p>
 						<label><span><?php echo $this->lang->line('invoice_work_description');?></span>

@@ -310,3 +310,32 @@ ERROR - 2017-07-02 21:53:09 --> Could not find the language line "setting_short_
 ERROR - 2017-07-02 21:53:11 --> Could not find the language line "setting_short_language"
 ERROR - 2017-07-02 22:05:02 --> Could not find the language line "setting_short_language"
 ERROR - 2017-07-02 22:07:16 --> Severity: Warning --> require_once(/var/www/html/bambooinvoice/system/plugins/dompdf/dompdf_config.inc.php): failed to open stream: No such file or directory /var/www/html/bambooinvoice/application/helpers/to_pdf_helper.php 10
+ERROR - 2017-07-02 22:10:44 --> Severity: Warning --> require_once(/var/www/html/bambooinvoice/system/plugins/dompdf/dompdf_config.inc.php): failed to open stream: No such file or directory /var/www/html/bambooinvoice/application/helpers/to_pdf_helper.php 10
+ERROR - 2017-07-02 22:10:47 --> Severity: Warning --> require_once(/var/www/html/bambooinvoice/system/plugins/dompdf/dompdf_config.inc.php): failed to open stream: No such file or directory /var/www/html/bambooinvoice/application/helpers/to_pdf_helper.php 10
+ERROR - 2017-07-02 22:11:03 --> Severity: Warning --> require_once(/var/www/html/bambooinvoice/system/plugins/dompdf/dompdf_config.inc.php): failed to open stream: No such file or directory /var/www/html/bambooinvoice/application/helpers/to_pdf_helper.php 10
+ERROR - 2017-07-02 22:11:09 --> Severity: Warning --> require_once(/var/www/html/bambooinvoice/system/helpers/dompdf/dompdf_config.inc.php): failed to open stream: No such file or directory /var/www/html/bambooinvoice/application/helpers/to_pdf_helper.php 10
+ERROR - 2017-07-02 22:11:15 --> Severity: Warning --> require_once(/var/www/html/bambooinvoice/system/helpers/dompdf/dompdf_config.inc.php): failed to open stream: No such file or directory /var/www/html/bambooinvoice/application/helpers/to_pdf_helper.php 10
+ERROR - 2017-07-02 22:11:47 --> Severity: Warning --> require_once(/var/www/html/bambooinvoice/system/application/helpers/dompdf/dompdf_config.inc.php): failed to open stream: No such file or directory /var/www/html/bambooinvoice/application/helpers/to_pdf_helper.php 10
+ERROR - 2017-07-02 22:13:51 --> Severity: 8192 --> Function set_magic_quotes_runtime() is deprecated /var/www/html/bambooinvoice/application/helpers/dompdf/lib/class.pdf.php 4332
+ERROR - 2017-07-02 22:13:51 --> Severity: 8192 --> Function set_magic_quotes_runtime() is deprecated /var/www/html/bambooinvoice/application/helpers/dompdf/lib/class.pdf.php 4348
+ERROR - 2017-07-02 22:17:00 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 22:32:20 --> Could not find the language line "tax1_desc"
+ERROR - 2017-07-02 22:32:20 --> Could not find the language line "tax1_rate"
+ERROR - 2017-07-02 22:32:20 --> Could not find the language line "tax2_desc"
+ERROR - 2017-07-02 22:32:20 --> Could not find the language line "tax2_rate"
+ERROR - 2017-07-02 22:32:20 --> Could not find the language line "setting_short_language"
+ERROR - 2017-07-02 22:32:20 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/invoices/edit.php 24
+ERROR - 2017-07-02 22:32:20 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/invoices/edit.php 24
+ERROR - 2017-07-02 22:32:20 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/invoices/edit.php 24
+ERROR - 2017-07-02 22:32:20 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/invoices/edit.php 24
+ERROR - 2017-07-02 22:32:20 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/invoices/edit.php 25
+ERROR - 2017-07-02 22:32:20 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/invoices/edit.php 25
+ERROR - 2017-07-02 22:32:20 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/invoices/edit.php 29
+ERROR - 2017-07-02 22:32:20 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/invoices/edit.php 29
+ERROR - 2017-07-02 22:32:20 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/invoices/edit.php 30
+ERROR - 2017-07-02 22:32:20 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/invoices/edit.php 30
+ERROR - 2017-07-02 22:32:20 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/invoices/edit.php 92
+ERROR - 2017-07-02 22:32:20 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/invoices/edit.php 92
+ERROR - 2017-07-02 22:32:20 --> Severity: Notice --> Undefined property: CI_Loader::$validation /var/www/html/bambooinvoice/application/views/invoices/edit.php 93
+ERROR - 2017-07-02 22:32:20 --> Severity: Notice --> Trying to get property of non-object /var/www/html/bambooinvoice/application/views/invoices/edit.php 93
+ERROR - 2017-07-02 22:32:20 --> Severity: Warning --> Invalid argument supplied for foreach() /var/www/html/bambooinvoice/application/controllers/Invoices.php 142

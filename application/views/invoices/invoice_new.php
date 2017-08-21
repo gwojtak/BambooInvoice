@@ -21,13 +21,13 @@
 		</p>
 
 		<p>
-			<label for="newClient"><?php echo $this->lang->line('invoice_or_new_client');?></label>
+			<label for="newClient"><?php echo $this->lang->line('invoice_or_new_client');?></label> 
 			<?php echo form_input('newClient', '', 'id="newClient" size="50"')?>
 		</p>
 
 		<div>
 			<p>
-				<input type="submit" value="<?php echo $this->lang->line('actions_create_invoice');?>" name="createInvoice" id="createInvoice" />
+				<input type="submit" value="<?php echo $this->lang->line('actions_create_invoice');?>" name="createInvoice" id="createInvoice" /> 
 				<input type="button" value="<?php echo $this->lang->line('actions_cancel');?>" id="newinvoicecancel" />
 			</p>
 		</div>

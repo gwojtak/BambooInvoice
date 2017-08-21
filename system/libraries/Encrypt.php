@@ -185,7 +185,7 @@ class CI_Encrypt {
 			return FALSE;
 		}
 
-        return $this->mcrypt_decode(base64_decode($string), $this->get_key($key));
+		return $this->mcrypt_decode(base64_decode($string), $this->get_key($key));
 	}
 
 	// --------------------------------------------------------------------

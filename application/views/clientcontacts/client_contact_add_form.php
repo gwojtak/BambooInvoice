@@ -1,5 +1,5 @@
 <p>
-	<label for="first_name" class="required"><span><?php echo $this->lang->line('clients_first_name');?>*:</span></label>
+	<label for="first_name" class="required"><span><?php echo $this->lang->line('clients_first_name');?>*:</span></label> 
 	<?php
 		echo form_input(
 							array(
@@ -15,7 +15,7 @@
 </p>
 
 <p>
-	<label for="last_name" class="required"><span><?php echo $this->lang->line('clients_last_name');?>*:</span></label>
+	<label for="last_name" class="required"><span><?php echo $this->lang->line('clients_last_name');?>*:</span></label> 
 	<?php
 		echo form_input(
 							array(
@@ -31,7 +31,7 @@
 </p>
 
 <p>
-	<label for="title"><span><?php echo $this->lang->line('clients_title');?>:</span></label>
+	<label for="title"><span><?php echo $this->lang->line('clients_title');?>:</span></label> 
 	<?php
 		echo form_input(
 							array(
@@ -47,7 +47,7 @@
 </p>
 
 <p>
-	<label for="email" class="required"><span><?php echo $this->lang->line('clients_email');?>*:</span></label>
+	<label for="email" class="required"><span><?php echo $this->lang->line('clients_email');?>*:</span></label> 
 	<?php
 		echo form_input(
 							array(
@@ -63,7 +63,7 @@
 </p>
 
 <p>
-	<label for="phone"><span><?php echo $this->lang->line('clients_phone');?>:</span></label>
+	<label for="phone"><span><?php echo $this->lang->line('clients_phone');?>:</span></label> 
 	<?php
 		echo form_input(
 							array(

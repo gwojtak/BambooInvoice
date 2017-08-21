@@ -1,0 +1,13 @@
+ERROR - 2017-08-04 19:18:06 --> Could not find the language line "setting_short_language"
+ERROR - 2017-08-04 19:18:08 --> Could not find the language line "setting_short_language"
+ERROR - 2017-08-04 19:18:14 --> Could not find the language line "setting_short_language"
+ERROR - 2017-08-04 19:18:15 --> Could not find the language line "setting_short_language"
+ERROR - 2017-08-04 19:18:18 --> Could not find the language line "setting_short_language"
+ERROR - 2017-08-04 19:18:24 --> Could not find the language line "setting_short_language"
+ERROR - 2017-08-04 19:18:26 --> Could not find the language line "setting_short_language"
+ERROR - 2017-08-04 19:18:27 --> Could not find the language line "setting_short_language"
+ERROR - 2017-08-04 19:18:29 --> Could not find the language line "setting_short_language"
+ERROR - 2017-08-04 19:18:39 --> Could not find the language line "setting_short_language"
+ERROR - 2017-08-04 19:19:13 --> Could not find the language line "setting_short_language"
+ERROR - 2017-08-04 19:19:15 --> Could not find the language line "setting_short_language"
+ERROR - 2017-08-04 19:19:17 --> Severity: Runtime Notice --> Only variables should be assigned by reference /var/www/html/bambooinvoice/application/controllers/Utilities.php 71

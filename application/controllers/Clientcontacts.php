@@ -44,10 +44,10 @@ class Clientcontacts extends MY_Controller {
 		else
 		{
 			$client_id = $this->clientcontacts_model->addClientContact(
-																		$this->input->post('client_id'),
-																		$this->input->post('first_name'),
-																		$this->input->post('last_name'),
-																		$this->input->post('email'),
+																		$this->input->post('client_id'), 
+																		$this->input->post('first_name'), 
+																		$this->input->post('last_name'), 
+																		$this->input->post('email'), 
 																		$this->input->post('phone'),
 																		$this->input->post('title')
 																	);
@@ -84,11 +84,11 @@ class Clientcontacts extends MY_Controller {
 		else
 		{
 			$this->clientcontacts_model->editClientContact(
-															$this->input->post('id'),
+															$this->input->post('id'), 
 															$this->input->post('client_id'),
 															$this->input->post('first_name'),
-															$this->input->post('last_name'),
-															$this->input->post('email'),
+															$this->input->post('last_name'), 
+															$this->input->post('email'), 
 															$this->input->post('phone'),
 															$this->input->post('title')
 														);

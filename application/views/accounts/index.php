@@ -25,27 +25,27 @@ $this->load->view('header');
 </div>
 
 <p>
-	<?php echo form_label('<span>'.$this->lang->line('login_username').'</span>', 'username');?>
+	<?php echo form_label('<span>'.$this->lang->line('login_username').'</span>', 'username');?> 
 	<?php echo form_input('username', set_value('username'));?>
 </p>
 
 <p>
-	<?php echo form_label('<span>'.$this->lang->line('clients_first_name').'</span>', 'first_name');?>
+	<?php echo form_label('<span>'.$this->lang->line('clients_first_name').'</span>', 'first_name');?> 
 	<?php echo form_input('first_name', set_value('first_name'));?>
 </p>
 
 <p>
-	<?php echo form_label('<span>'.$this->lang->line('clients_last_name').'</span>', 'last_name');?>
+	<?php echo form_label('<span>'.$this->lang->line('clients_last_name').'</span>', 'last_name');?> 
 	<?php echo form_input('last_name', set_value('last_name'));?>
 </p>
 
 <p>
-	<?php echo form_label('<span>'.$this->lang->line('login_password').'</span>', 'login_password');?>
+	<?php echo form_label('<span>'.$this->lang->line('login_password').'</span>', 'login_password');?> 
 	<?php echo form_password('login_password', set_value('login_password'));?>
 </p>
 
 <p>
-	<?php echo form_label('<span>'.$this->lang->line('login_password_confirm').'</span>', 'login_password_confirm');?>
+	<?php echo form_label('<span>'.$this->lang->line('login_password_confirm').'</span>', 'login_password_confirm');?> 
 	<?php echo form_password('login_password_confirm', set_value('login_password_confirm'));?>
 </p>
 
